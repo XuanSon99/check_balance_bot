@@ -54,7 +54,7 @@ def get_balance(address):
         return f'{round(float(token_balance["balance"])*pow(10, -6)):,}'
 
 app = ApplicationBuilder().token(
-    "6673254814:AAHt6zx49L2ARt7Yxr46cyrFF2xJeBpY-gs").build()
+    "6605453961:AAEuAw1XyloVT0fmn53c48RFcw2cMQ3WCJw").build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(MessageHandler(filters.ALL, messageHandler))
