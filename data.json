@@ -26,11 +26,6 @@
   },
   {
     "name": "Ch\u1ecb V\u00e2n",
-    "wallet": "TGZuqGmGdzyJ3iey4m7SQaMbiKs9PiGz4h",
-    "block_timestamp": 1696776174000
-  },
-  {
-    "name": "Ch\u1ecb V\u00e2n",
     "wallet": "TG41x16Ac6mGnLr7g6wt2otE1oFmeZwCr6",
     "block_timestamp": 1696818606000
   },
@@ -65,24 +60,9 @@
     "block_timestamp": 1696823247000
   },
   {
-    "name": "Vip Ch\u00e2u \u00c2u",
-    "wallet": "TPNY11DxnhABNtjhzBEoTwn9kTnCjbehJ9",
-    "block_timestamp": 1696756398000
-  },
-  {
     "name": "L\u00e2m San",
     "wallet": "TDRwGrUnEtuirVyn8wLur432izatdMAsR5",
     "block_timestamp": 1696823973000
-  },
-  {
-    "name": "L\u00ea \u0110\u1ee9c",
-    "wallet": "TBnZ3CqytEyZoKr29Bt9t9ZuZ7u9AenopG",
-    "block_timestamp": 1696821363000
-  },
-  {
-    "name": "Giang Ph\u1ea1m",
-    "wallet": "TNeGUj8yz3hDcnXYUmTguT9ZQzGhUSpz7e",
-    "block_timestamp": 1696820163000
   },
   {
     "name": "Cny Vi\u1ec7t Anh",
@@ -110,11 +90,6 @@
     "block_timestamp": 1696817667000
   },
   {
-    "name": "Thi H\u00e0n",
-    "wallet": "TRkrjVR9S76QvDwQHcRYqh4ZZabvnt8dzs",
-    "block_timestamp": 1696556763000
-  },
-  {
     "name": "Thanh Jolly",
     "wallet": "TUrZFw25SikBUo73PsgdWA4CqUeRRo9jpa",
     "block_timestamp": 1696824057000
@@ -127,11 +102,6 @@
   {
     "name": "Nhật Hồ, Dung Phạm",
     "wallet": "TSUJ2MpPx3BghfS8nnuEnJAWJX4ozk9aQA",
-    "block_timestamp": 1696824057000
-  },
-  {
-    "name": "Huy Tịnh",
-    "wallet": "TLVfEvWF64jwQxNnBSTjvkjr9YzCbf8zEQ",
     "block_timestamp": 1696824057000
   },
   {
