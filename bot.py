@@ -20,6 +20,9 @@ async def messageHandler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
     username = update.effective_user.username
     chat_id = update.effective_chat.id
 
+    if update.message.chat.type == "private":
+        return
+
     with open('data.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
 
