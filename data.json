@@ -1,23 +1,8 @@
 [
   {
-    "name": "Phương Béo 1",
-    "wallet": "TWn7YZyQ9esFeKAJbC4FBQXFWz9JK7xLPb",
+    "name": "PC",
+    "wallet": "THHAztHtrcMcVcxwiNEB4cTfviSqDBk4UN",
     "block_timestamp": 1696823121000
-  },
-  {
-    "name": "Phương Béo 2",
-    "wallet": "TPM4y3azLnAyoBv35MGqf7vAU95R4ue5mv",
-    "block_timestamp": 1696823121000
-  },
-  {
-    "name": "Kiều Thắng 1",
-    "wallet": "TFBKe1pThLetwQqFyghSEuhZFtLeSH94SM",
-    "block_timestamp": 1696823991000
-  },
-  {
-    "name": "Kiều Thắng 2",
-    "wallet": "TBZLT4dr7ZsBxfqRx89EoPAdG9dSNWyn4k",
-    "block_timestamp": 1696823991000
   },
   {
     "name": "Chị Vân",
@@ -25,18 +10,8 @@
     "block_timestamp": 1696824162000
   },
   {
-    "name": "Tốn 1",
-    "wallet": "TTaMu11pL5kDcneWqSwtmp87CLm1dwV8Js",
-    "block_timestamp": 1696824066000
-  },
-  {
-    "name": "Tốn 2",
-    "wallet": "TG87y7JgVHPrQhZJF9EJAaMYp8cuyorNnv",
-    "block_timestamp": 1696824057000
-  },
-  {
-    "name": "A Hợp",
-    "wallet": "TRxfoSLYHM5EHh2fVUHgHVAn4GEVzEkSZ8",
+    "name": "Nam Vũ",
+    "wallet": "TSneG7cgYMLMT3avxF1ACS1zGdj7pH4CC8",
     "block_timestamp": 1696824057000
   },
   {
