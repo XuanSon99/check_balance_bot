@@ -20,6 +20,23 @@ async def messageHandler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
     username = update.effective_user.username
     chat_id = update.effective_chat.id
 
+    if "/update" in update.message.text:
+        res = requests.get("https://api.chootc.com/api/tracking")
+        wallets = res.json()
+        data = []
+        for item in wallets:
+            if item["note"]:
+                data.append(
+                {
+                    "name": item["name"],
+                    "wallet": item["address"],
+                    "block_timestamp": 1706281575000,
+                }
+            )
+
+        with open("data.json", "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+
     if update.message.chat.type == "private":
         return
 
@@ -100,6 +117,9 @@ def get_balance(address):
 
 app = ApplicationBuilder().token(
     "6605453961:AAEuAw1XyloVT0fmn53c48RFcw2cMQ3WCJw").build()
+
+# app = ApplicationBuilder().token(
+#     "6680658242:AAESGOAusAVLvTNtMM-qVAifvv_Qn1haoHc").build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(MessageHandler(filters.ALL, messageHandler))
